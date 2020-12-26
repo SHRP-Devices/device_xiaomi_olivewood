@@ -8,7 +8,7 @@ It was released in April 2020.
   <a href="#test">💡 Test</a> •
   <a href="#specification">📱 Specification</a> •
 </p>
-![1](https://raw.githubusercontent.com/askanakmala/template_me/master/r8ap.jpg "1")
+![r8ap](https://github.com/askanakmala/template_me/blob/main/r8ap.jpg "r8ap")
 
 ## Compile
 
@@ -32,7 +32,7 @@ repo sync
 ```
 You can sync source with faster
 ```
-repo sync --no-tags --no-clone-bundle -c --force-sync -j($nproc)
+repo sync --no-tags --no-clone-bundle -c --force-sync -j(nproc)
 ```
 
 Finally execute these:
@@ -42,7 +42,7 @@ Finally execute these:
 export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL=C
 lunch omni_olivewood-eng 
-mka recoveryimage -j($nproc)
+mka recoveryimage -j(nproc)
 ```
 ## Test
 
