@@ -8,7 +8,8 @@ It was released in April 2020.
   <a href="#test">💡 Test</a> •
   <a href="#specification">📱 Specification</a> •
 </p>
-![r8ap](https://github.com/askanakmala/template_me/blob/main/r8ap.jpg "r8ap")
+
+![r8ap](https://raw.githubusercontent.com/askanakmala/template_me/main/r8ap.jpg "r8ap")
 
 ## Compile
 
