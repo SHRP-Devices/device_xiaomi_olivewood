@@ -1,4 +1,4 @@
-# SHRP Device configuration for Xiaomi Redmi 8A Pro/Dual
+# SHRP Device configuration for Xiaomi Redmi 8A Pro/Dual (olivewood)
 
 The Redmi 8a Pro/Dual (codenamed _"olivewood"_) is a smartphone from Xiaomi.
 It was released in April 2020.
