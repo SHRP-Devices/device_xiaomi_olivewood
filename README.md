@@ -18,22 +18,15 @@ First sync SHRP manifest:
 repo init -u git://github.com/SKYHAWK-Recovery-Project/platform_manifest_twrp_omni.git -b android-9.0
 ```
 
-Then add these projects to .repo/local_manifests/roomservice.xml (If you don't have it, you can create your own device.xml file to .repo/local_manifest/device.xml <p align="left">
-  <a href="#manifest"> Guide Hire</a> •
-</p>: 
-
+Then add these projects to .repo/local_manifests/roomservice.xml (If you don't have it, you can add in .repo/manifest.xml)
 ```xml
-<project name="askanakmala/device_olivewood-SHRP" path="device/xiaomi/olivewood" remote="github" revision="android_9.0-Q" />
+<project name="askanakmala/device_xiaomi_olivewood-SHRP" path="device/xiaomi/olivewood" remote="github" revision="android_9.0-Q" />
 ```
 
 Now you can sync your source:
 
 ```
 repo sync
-```
-You can sync source with faster
-```
-repo sync --no-tags --no-clone-bundle -c --force-sync -j(nproc)
 ```
 
 Finally execute these:
@@ -43,7 +36,7 @@ Finally execute these:
 export ALLOW_MISSING_DEPENDENCIES=true
 export LC_ALL=C
 lunch omni_olivewood-eng 
-mka recoveryimage -j(nproc)
+mka recoveryimage
 ```
 ## Test
 
@@ -68,12 +61,3 @@ Rear Camera  | 13 MP, f/2.2, (wide), 1/3.1", 1.12µm, PDAF
 Rear Depth Sensor  | 2 MP, f/2.4, (depth)
 Front Camera | 8 MP, f/2.0, 1/4", 1.12µm
 Release Date | 02 April 2020
-
-## Manifest
-Execute this command
-```
-echo "<?xml version="1.0" encoding="UTF-8"?>" > .repo/local_manifests/device.xml
-echo "<manifest>" >> .repo/local_manifests/device.xml
-echo "  <project name="askanakmala/device_olivewood-SHRP" path="device/xiaomi/olivewood" remote="github" revision="android_9.0-Q" />" >> .repo/local_manifests/device.xml
-echo "</manifest>" >> .repo/local_manifests/device.xml
-```
