@@ -108,8 +108,6 @@ PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
 
 # Crypto
-#TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/commonsys/cryptfs_hw
-#TARGET_HW_DISK_ENCRYPTION := true
 TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_CRYPTO_FBE := true
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
@@ -155,13 +153,15 @@ SHRP_PATH := device/xiaomi/olivewood
 # Maintainer name *
 SHRP_MAINTAINER := Askan28
 # Device codename *
-SHRP_DEVICE_CODE := Olivewood
+SHRP_DEVICE_CODE := OliveWood
 # Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
 SHRP_REC_TYPE := Treble
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
 SHRP_DEVICE_TYPE := A/B
 # For Notch devices [Optional]
 SHRP_NOTCH := true
+# OFFICIAL
+SHRP_OFFICIAL := true
 # put this 0 if device has no EDL mode *
 SHRP_EDL_MODE := 1
 # Put your device's paths from fstab *
