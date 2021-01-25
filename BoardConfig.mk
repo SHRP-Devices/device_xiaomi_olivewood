@@ -153,7 +153,7 @@ SHRP_PATH := device/xiaomi/olivewood
 # Maintainer name *
 SHRP_MAINTAINER := Askan28
 # Device codename *
-SHRP_DEVICE_CODE := OliveWood
+SHRP_DEVICE_CODE := olivewood
 # Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
 SHRP_REC_TYPE := Treble
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
